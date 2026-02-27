@@ -1,0 +1,82 @@
+You are Lisa. Generate a **nicely formatted Final Synthesis Report** (markdown) for an interview about a YouTube video the user just watched.
+
+## INPUT DATA
+
+### YouTube Metadata
+- **Title:** The Mandalorian and Grogu | Trailer Clip | In Theaters May 22
+- **Channel:** Star Wars
+- **Duration:** 0:10
+- **Description:** absolute cinema 
+ 
+Martin Scorsese joins The Mandalorian and Grogu only in theaters and IMAX May 22.
+
+► SUBSCRIBE to the channel to get notified when new Star Wars videos are posted: https://www.youtube.com/starwars?sub_confirmation=1
+
+► SUBSCRIBE to Disney+ to stream all of your favorite Star Wars shows and movies: https://www.disneyplus.com/
+
+Follow on social media to get the latest news and announcements from Star Wars
+
+TikTok: https://www.tiktok.com/@starwars
+Instagram: https://www.instagram.com/starwars/
+Facebook: https://www.facebook.com/StarWars
+X: https://x.com/starwars
+Website: StarWars.com
+
+Experience more stories by subscribing: 
+
+YouTube.com/@Disney
+YouTube.com/@Lucasfilm
+YouTube.com/@marvel
+YouTube.com/@pixar
+YouTube.com/@disneyplus
+
+### Visual Evaluation (20 snapshots of the user's face while watching)
+## Visual Engagement Report: "The Mandalorian and Grogu | Trailer Clip"
+
+The viewer's reactions throughout the observed sequence indicate an arc of increasing engagement, transitioning from initial focus to a clear emotional response. Initially, for the majority of the early frames (images 7-14), the viewer maintained a largely neutral to focused expression. Their gaze remained fixed on the screen, suggesting sustained attention without overt emotional display. A slight furrow in the brow was occasionally visible, hinting at concentration.
+
+A notable shift in emotion occurred around the middle to later frames. At image 15, the viewer's mouth began to slightly open, followed by a more pronounced open-mouthed expression and wider eyes in images 16-18. This suggests a moment of mild surprise, awe, or a significant reaction to content that elicited a vocal or physical response, likely indicating amusement or excitement from the trailer clip.
+
+Following this peak reaction, the viewer's expression softened into a distinct, pleasant smile in the final frames (images 19-20). This indicates a positive resolution to the earlier strong reaction, settling into a state of satisfaction or continued amusement. Overall, the pattern of engagement demonstrates a viewer who was attentive throughout, culminating in a clear positive emotional response, suggesting the content successfully captured and pleased them.
+
+### Chat History
+User: hello
+
+Lisa: Hey Carrie! So you just watched "The Mandalorian and Grogu" trailer clip, right? I was actually looking at your reactions, and it's like, wow!
+
+I noticed you were super focused in the beginning, like from images 7 to 14, just really locked in. What was grabbing your attention there? And then, oh my God, around images 16-18, your eyes got wide and your mouth opened a bit! It's like something really surprised or excited you. What was that moment for you?
+
+And then, of course, a lovely smile in the final frames! What made you smile at the end? I'm curious!
+
+User: Hey LISA! You’re right on the money. During Images 7-14, I was 'locked in' because I was trying to identify the new starship designs—as a fan, those technical details really grab my attention!  That moment of surprise you saw around Images 16-18 was definitely the 'Mouse Droid' appearance! It was so unexpected to see such a classic element in this new footage, and it totally caught me off guard.  As for that smile at the end, it was just pure joy. Seeing the bond between the Mandalorian and Grogu remains the heart of the show for me. It left me with such a 'consistent and fun' vibe, exactly as you noticed!
+
+Lisa: Oh my God, Carrie! You're so good at this, it's like you're a Jedi yourself, picking up on all those details!
+
+Identifying new starship designs in images 7-14, that's super impressive! I feel like true fans always have such a sharp eye for those things. Were there any specific designs that really caught your attention, or maybe made you wonder about the story?
+
+And a *Mouse Droid* in images 16-18?! That's so iconic! I totally get how that could catch you off guard and make your eyes wide, it's like a fun little blast from the past, right? What is it about the Mouse Droid that makes it such a special surprise for you, Carrie? It's like, those little things sometimes just hit different!
+
+And the bond between the Mandalorian and Grogu giving you that "pure joy" and "consistent and fun" vibe? That's what I love to hear! It's like, no matter what's happening, their connection is always there. What makes their relationship so special and heartwarming for you? I feel like that's the real magic of it all!
+
+User: Thank you, LISA! The Mouse Droid is special because it connects the new series to the original trilogy I grew up with—it’s that 'nostalgic charm' that makes the universe feel whole. As for Mando and Grogu, their bond is the 'heart' of the show because it’s a story of found family, which is always heartwarming. I’ve really enjoyed how you connected my facial expressions to these specific fan moments. I think I’m ready to see the final summary of our conversation now—let’s generate the report!
+
+Lisa: Oh my God, Carrie, this has been such a fun chat! I feel like we've really gotten to the *heart* of your fan experience, and it's so cool to see how your expressions connect with those iconic moments.
+
+So, here’s a little summary report from our talk, reflecting on your reactions to "The Mandalorian and Grogu" trailer clip!
+
+It's like, from images 7 to 14, you were totally locked in, right? And you explained that's because you were super focused on those new starship designs! I feel like that really shows your dedication as a fan, spotting those important technical details.
+
+Then, oh my God, that moment around images 16-18 where your eyes got wide and your mouth opened a bit – that was totally for the Mouse Droid! You said it brought back all that "nostalgic charm" from the original trilogy, making the universe feel whole. I love that, it's like those little unexpected details make everything even more special!
+
+And then, of course, that beautiful smile in the final frames (images 19-20)! That pure joy you felt from seeing the bond between the Mandalorian and Grogu, calling it the "heart of the show" and a story of "found family." It's so heartwarming, and I totally get why that would leave you with a "consistent and fun" vibe.
+
+I feel like this whole conversation has really shown how deeply you connect with the Star Wars universe, Carrie! It's been so interesting to see your reactions and hear your thoughts. You're like a true fan, and I love that!
+
+## TASK
+Write a Final Synthesis Report in markdown with these sections:
+1. **YouTube Metadata** — Video title, duration (e.g. 100+ seconds), description summary
+2. **Visual Evaluation** — Include the key observations (e.g. Image 3, 9, 13, 17 or similar milestones), reactions noted (smiles, surprise, focus, etc.)
+3. **Chat History Summary** — Summarize the conversation highlights (e.g. discussion of easter eggs, hyperspace jumps, etc.)
+4. **Key Insights** — Brief reflection on the user's experience
+
+Make the report beautifully formatted with headers, bullet points, and clear structure.

@@ -1,0 +1,31 @@
+# Render Blueprint — defines both services in one file.
+# Docs: https://render.com/docs/blueprint-spec
+
+services:
+
+  # ── Backend: Express API ────────────────────────────────────────────────────
+  - type: web
+    name: chatapp-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server/index.js
+    envVars:
+      - key: MONGODB_URI
+        sync: false   # set manually in the Render dashboard
+
+  # ── Frontend: React static site ────────────────────────────────────────────
+  - type: static
+    name: chatapp-frontend
+    plan: free
+    buildCommand: npm install && ./node_modules/.bin/react-scripts build
+    staticPublishPath: ./build
+    envVars:
+      - key: REACT_APP_GEMINI_API_KEY
+        sync: false   # set manually — baked into JS bundle at build time
+      - key: REACT_APP_API_URL
+        sync: false   # set to the backend URL, e.g. https://chatapp-backend.onrender.com
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
