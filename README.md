@@ -16,7 +16,7 @@ Create a `.env` file in the project root with:
 | Variable | Required | Where used | Description |
 |----------|----------|------------|-------------|
 | `REACT_APP_GEMINI_API_KEY` | Yes | Frontend (baked in at build) | Google Gemini API key. Get one at [Google AI Studio](https://aistudio.google.com/apikey). |
-| `REACT_APP_MONGODB_URI` | Yes | Backend | MongoDB Atlas connection string. Format: `mongodb+srv://USER:PASSWORD@CLUSTER.mongodb.net/` |
+| `REACT_APP_MONGODB_URI` | Yes | Backend | MongoDB Atlas connection string. Get it from Atlas: **Database → Connect → Drivers**. |
 | `REACT_APP_API_URL` | Production only | Frontend (baked in at build) | Full URL of the backend, e.g. `https://your-backend.onrender.com`. Leave blank for local dev (proxy handles it). |
 
 The backend also accepts `MONGODB_URI` or `REACT_APP_MONGO_URI` as the MongoDB connection string if you prefer those names.
@@ -25,7 +25,7 @@ The backend also accepts `MONGODB_URI` or `REACT_APP_MONGO_URI` as the MongoDB c
 
 ```
 REACT_APP_GEMINI_API_KEY=AIzaSy...
-REACT_APP_MONGODB_URI=mongodb+srv://user:password@cluster.mongodb.net/
+REACT_APP_MONGODB_URI=<paste your Atlas connection string from Database → Connect>
 # REACT_APP_API_URL not needed locally — the dev server proxies /api to localhost:3001
 ```
 
